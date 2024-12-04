@@ -68,17 +68,7 @@ public class BlogController {
     model.addAttribute("keyword", keyword); // 키워드
     return "board_list"; // .HTML 연결
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     // @GetMapping("/article_edit/{id}") // 게시판 링크 지정
     // public String article_edit(Model model, @PathVariable Long id) {
